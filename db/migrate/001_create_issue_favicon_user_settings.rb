@@ -1,4 +1,4 @@
-class CreateIssueFaviconUserSettings < ActiveRecord::Migration
+class CreateIssueFaviconUserSettings < ActiveRecord::Migration[4.2]
   def change
     create_table :issue_favicon_user_settings do |t|
       t.integer :user_id

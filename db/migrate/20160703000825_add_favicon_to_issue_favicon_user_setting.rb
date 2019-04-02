@@ -1,4 +1,4 @@
-class AddFaviconToIssueFaviconUserSetting < ActiveRecord::Migration
+class AddFaviconToIssueFaviconUserSetting < ActiveRecord::Migration[4.2]
   def change
     add_column :issue_favicon_user_settings, :favicon, :text
 

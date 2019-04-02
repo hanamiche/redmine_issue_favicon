@@ -1,4 +1,4 @@
-class RemoveEnabledFromIssueFaviconUserSetting < ActiveRecord::Migration
+class RemoveEnabledFromIssueFaviconUserSetting < ActiveRecord::Migration[4.2]
   def self.up
     remove_column :issue_favicon_user_settings, :enabled
   end
